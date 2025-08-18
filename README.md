@@ -1,12 +1,35 @@
-# React + Vite
+# Rashika-AI  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rashika-AI is an AI-powered chatbot built using "React + Vite" and "Google Generative AI (Gemini)".  
+This project is inspired by Gemini AI and provides real-time conversational responses directly in the browser.  
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features  
+AI-powered chatbot using Google Gemini API  
+Built with React + Vite for fast performance  
+Modern and responsive UI with React components  
+Real-time message interaction
+Safety filters enabled for harassment, hate speech, explicit & harmful content  
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+# Technology used
+
+Frontend: React + Vite  
+Styling: CSS 
+AI Integration: @google/generative-ai  
+Version Control: Git & GitHub  
+
+# Current Status
+Right now, Rashika-AI works as a chatbot that answers user questions.
+
+# Future Improvements
+Planned features include:
+- Sidebar settings to customize AI preferences  
+- Help section to guide users on how to use Rashika-AI  
+- Chat history to save previous conversations  
+- Improved UI/UX with better design and dark mode  
+- Voice input/output using speech-to-text and text-to-speech  
+- Multi-language support so AI can answer in different languages  
+
+  
