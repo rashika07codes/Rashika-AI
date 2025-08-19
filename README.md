@@ -3,6 +3,9 @@
 Rashika-AI is an AI-powered chatbot built using "React + Vite" and "Google Generative AI (Gemini)".  
 This project is inspired by Gemini AI and provides real-time conversational responses directly in the browser.  
 
+Live Demo: https://rashikas-ai.netlify.app/
+GitHub Repository: https://github.com/rashika07codes/Rashika-AI
+
 
 # Features  
 AI-powered chatbot using Google Gemini API  
@@ -10,7 +13,6 @@ Built with React + Vite for fast performance
 Modern and responsive UI with React components  
 Real-time message interaction
 Safety filters enabled for harassment, hate speech, explicit & harmful content  
-
 
 
 # Technology used
