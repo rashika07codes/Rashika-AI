@@ -53,7 +53,8 @@ const Main = () => {
             <hr />
             <hr />
          </div>
-         :<p>{resultData}</p>
+         :<p dangerouslySetInnerHTML={{ __html: resultData }}></p>
+
 
     }
         
@@ -68,7 +69,7 @@ const Main = () => {
                     <div>
                         <img src={assets.gallery_icon} alt="" />
                         <img src={assets.mic_icon} alt="" />
-                        <img onClick={()=>onSent(input)} src={assets.send_icon} alt="" />
+                        {input?<img onClick={()=>onSent(input)} src={assets.send_icon} alt="" />:null}
                     </div>
                 </div>
                 <p className="bottom-info">It may display inaccurate info, including about people, so double check its responses. Your privacy and our Apps </p>
