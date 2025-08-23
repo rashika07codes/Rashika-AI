@@ -1,6 +1,6 @@
 .sidebar{
     min-height: 100vh;
-    display:inline-flex;
+    display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
     background-color: #f0f4f9;
@@ -31,7 +31,11 @@
     flex-direction: column;
     animation: fadeIn 1.5s;
 }
-.sidebar .recent-title{
+.sidebar .recent-title{.app {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+}
     margin-top: 30px;
     margin-bottom: 20px;
 }

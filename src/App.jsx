@@ -5,12 +5,12 @@ import ContextProvider from './context/Context'
 
 const App = () => {
   return (
-    <ContextProvider>
+  
       <div className="app">
         <Sidebar />
         <Main />
       </div>
-    </ContextProvider>
+  
   )
 }
 
