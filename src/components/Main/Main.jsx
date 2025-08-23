@@ -5,6 +5,16 @@ import { Context } from '../../context/Context';
 
 const Main = () => {
 
+    const context = React.useContext(Context);
+
+    if (!Context) {
+    return <div className="main">
+      <p style={{ textAlign: "center", color: "red" }}>
+        Error: Context not available. Please wrap the app with ContextProvider.
+      </p>
+    </div>
+  }
+
     const {onSent,recentPrompt,showResult,loading,resultData,setInput,input} = React.useContext(Context);
 
   return (
@@ -31,7 +41,7 @@ const Main = () => {
                     <img src={assets.bulb_icon} alt="" />
                 </div>
                 <div className="card">
-                    <p>Braibstrom team bonding activitiesfor our work retreat</p>
+                    <p>Brainstrom team bonding activities for our work retreat</p>
                     <img src={assets.message_icon} alt="" />
                 </div>
                 <div className="card">
@@ -57,12 +67,10 @@ const Main = () => {
 
 
     }
-        
+
     </div>
 </div>
-}
-
-            
+}   
             <div className="main-bottom">
                 <div className="search-box">
                     <input onChange={(e)=>setInput(e.target.value)} value={input} type="text" placeholder='Enter a prompt here' />
